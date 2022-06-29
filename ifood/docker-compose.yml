@@ -1,0 +1,18 @@
+version: "3.7"
+services:
+ postgres_cadastro:
+   container_name: postgres_cadastro_ifood
+   image: postgres:12.2
+   environment:
+     POSTGRES_USER: cadastro
+     POSTGRES_PASSWORD: cadastro
+   ports:
+     - "5430:5432"
+ postgres_marketplace:
+   container_name: postgres_marketplace_ifood
+   image: postgres:12.2
+   environment:
+     POSTGRES_USER: marketplace
+     POSTGRES_PASSWORD: marketplace
+   ports:
+     - "5431:5432"

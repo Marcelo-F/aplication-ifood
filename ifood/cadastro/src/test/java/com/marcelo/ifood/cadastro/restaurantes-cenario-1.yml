@@ -1,0 +1,9 @@
+restaurante:
+  - PROPRIETARIO: "ID DO KEYCLOCK"
+    CNPJ: 15351351351
+    nomeFantasia: "Novo restaurante"
+
+  -
+    PROPRIETARIO: "ID DO KEYCLOCK"
+    CNPJ: 15351351351
+    nomeFantasia: "Novo restaurante"
